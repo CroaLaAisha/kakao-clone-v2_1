@@ -9,7 +9,7 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Settings | Kakao Clone</title>
   </head>
 
@@ -26,82 +26,85 @@
         <span class="status-bar__battery-full">100%</span>
         <i class="fas fa-battery-full"></i>
       </div>
+    </div>
 
-      <header class="header">
-        <div class="header__header-column">
-          <a href="more.html">
-            <i class="fas fa-arrow-left fa-2x"></i>
-          </a>
-          <h1 class="header__title">Settings</h1>
-        </div>
-        <div class="header__header-column">
-          <span class="header__icon">
-            <i class="fas fa-search"></i>
-          </span>
-        </div>
-      </header>
-      <!-- main -->
-      <main class="settings">
-        <section class="settings__section">
-          <ul class="settings__notification-list">
-            <li class="settings__notification">
-              <span class="notification__icon">
-                <i class="fas fa-bullhorn"></i>
-              </span>
-              <span class="notification__title">Notices</span>
-            </li>
-            <li class="settings__notification">
-              <span class="notification__icon">
-                <i class="fas fa-flask"></i>
-              </span>
-              <span class="notification__title">Kakao Lab</span>
-            </li>
-            <li class="settings__notification">
-              <div class="notication__column">
-                <span class="notification__icon">
-                  <i class="fas fa-info-circle"></i>
-                </span>
-                <span class="notification__title">Version</span>
-              </div>
-              <div class="notication__column">
-                <span class="current-version">8.2.7</span>
-              </div>
-            </li>
-          </ul>
-          <ul class="settings__list">
-            <li class="settings__setting">
+    <header class="header">
+      <div class="header__header-column">
+        <a href="more.html" class="header__back-btn">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <h1 class="header__title">Settings</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+      </div>
+    </header>
+    <!-- main -->
+    <main class="settings">
+      <section class="settings__sections">
+        <ul class="settings__notification-list section">
+          <li class="settings__notification">
+            <span class="settings__icon">
+              <i class="fas fa-bullhorn"></i>
+            </span>
+            <span class="notification__title">Notices</span>
+          </li>
+          <li class="settings__notification">
+            <span class="settings__icon">
+              <i class="fas fa-flask"></i>
+            </span>
+            <span class="notification__title">Kakao Lab</span>
+          </li>
+          <li class="settings__notification version">
+            <div class="notication__column">
               <span class="settings__icon">
-                <i class="fas fa-lock"></i>
+                <i class="fas fa-info-circle"></i>
               </span>
-              <span class="settings__title">Privacy</span>
-            </li>
-            <li class="settings__setting">
-              <span class="settings__icon">
-                <i class="far fa-bell"></i>
-              </span>
-              <span class="settings__title">Notifications</span>
-            </li>
-            <li class="settings__setting">
-              <span class="settings__icon">
-                <i class="far fa-user"></i>
-              </span>
-              <span class="settings__title">Friends</span>
-            </li>
-            <li class="settings__setting">
-              <span class="settings__icon">
-                <i class="far fa-comment"></i>
-              </span>
-              <span class="settings__title">Chats</span>
-            </li>
-            <li class="settings__setting">
-              <span class="settings__icon">
-                <i class="far fa-comments"></i>
-              </span>
-              <span class="settings__title">SMS Messages</span>
-            </li>
-          </ul>
-        </section>
-      </main>
+              <span class="notification__title">Version</span>
+            </div>
+            <div class="notication__column">
+              <span>8.2.7</span>
+            </div>
+          </li>
+        </ul>
+        <ul class="settings__list section">
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="fas fa-lock"></i>
+            </span>
+            <span class="settings__title">Privacy</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="far fa-bell"></i>
+            </span>
+            <span class="settings__title">Notifications</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="far fa-user"></i>
+            </span>
+            <span class="settings__title">Friends</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="far fa-comment"></i>
+            </span>
+            <span class="settings__title">Chats</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="far fa-comments"></i>
+            </span>
+            <span class="settings__title">SMS Messages</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please Make Your Screen Small</span>
     </div>
   </body>
 </html>
